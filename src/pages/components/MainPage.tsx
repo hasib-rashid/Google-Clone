@@ -4,21 +4,27 @@ const MainPage = () => {
     return (
         <main className="MainPage">
             <header className="main_header">
-                <div className="main_header_comp">
-                    <p>Gmail</p>
-                </div>
+                <section className="section-01">
+                    <h2>Google</h2>
+                </section>
 
-                <div className="main_header_comp">
-                    <p>Images</p>
-                </div>
+                <section className="section-02">
+                    <div className="main_header_comp">
+                        <p>Gmail</p>
+                    </div>
 
-                <div className="main_header_comp">
-                    <img className="menu-icon" src="https://img.icons8.com/ios-glyphs/85/000000/squared-menu.png" alt="Menu" />
-                </div>
+                    <div className="main_header_comp">
+                        <p>Images</p>
+                    </div>
 
-                <div className="main_header_comp">
-                    <img className="user-icon" src="https://img.icons8.com/ios-filled/85/000000/user-male-circle.png" alt="User" />
-                </div>
+                    <div className="main_header_comp">
+                        <img className="menu-icon" src="https://img.icons8.com/ios-glyphs/85/000000/squared-menu.png" alt="Menu" />
+                    </div>
+
+                    <div className="main_header_comp">
+                        <img className="user-icon" src="https://img.icons8.com/ios-filled/85/000000/user-male-circle.png" alt="User" />
+                    </div>
+                </section>
             </header>
 
             <main className="main-google-comp">
