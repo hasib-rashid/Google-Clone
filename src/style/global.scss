@@ -6,3 +6,21 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+.main_header {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.main_header_comp {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu-icon {
+    height: 30px;
+    margin-top: 5px;
+}
