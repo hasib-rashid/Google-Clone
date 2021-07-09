@@ -7,11 +7,14 @@
     font-family: "Poppins", sans-serif;
 }
 
-.main_header {
-    float: right;
+.MainPage {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+
+.main_header {
+    display: flex;
+    float: right;
     height: 50px;
 }
 
@@ -28,4 +31,15 @@
 .user-icon {
     height: 35px;
     margin-top: 5px;
+}
+
+.main-google-comp {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 120px;
+    }
 }
