@@ -15,6 +15,10 @@ const MainPage = () => {
                 <div className="main_header_comp">
                     <img className="menu-icon" src="https://img.icons8.com/ios-glyphs/85/000000/squared-menu.png" alt="Menu" />
                 </div>
+
+                <div className="main_header_comp">
+                    <img className="user-icon" src="https://img.icons8.com/ios-filled/85/000000/user-male-circle.png" alt="User" />
+                </div>
             </header>
         </main>
     )
